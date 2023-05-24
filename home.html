@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <title>My Website</title>
+</head>
+<body>
+    <header> 
+        <a href="home.html" class="logo">Yara</a>
+        <nav class="navigation">
+             <a href="#about">About </a>
+            <a href="#projects">Projects</a>
+            <a href="videos.html">Videos</a>
+            <a href="designs.html">Designs</a>
+           
+           
+        </nav>
+    </header>
+    
+    <section class="main" id="main">
+        <div>
+            <h1> Hello,</h1>
+            <h2>I am Yara, the Designer..</h2>
+            <h3>  Since then, I am interested 
+            in art, drawing, paintings and designing. I learned about 
+        graphic designs, animations, creating stories, storyboardings, 
+    character designing, programming, and web development. I am creating this
+    website using html, css, and java script from scratch. I am most likely intersted in 
+animation, graphic designs, and inventing cartoon shows, stories, storyboardings, and character designing. </h3>
+            <a href="#arts" class="main-btn">View my work</a>
+           
+        </div>
+    </section>
+
+    <section class="cards"  id="about">
+        <h2 class="title">About Me</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="info">
+                    <h3> Me </h3>
+                    <p>I am Yara. While studying I worked in retail store as cashier supervisor.
+                        One of my best hobbies is practicing painting and drawings.
+                        I have a cat and I am in love with all animals in the world. 
+                    </p> 
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="info">
+                    <h3> Education</h3>
+                    <p>I am studying Interactive Multimedia and Design in Carleton
+                        University, in Ottawa, Canada. And I am continuing to learn something new every day.
+                 </p> 
+                </div>
+                
+            </div>
+        </div>
+    
+
+        
+    </section>
+    <section class="Art" id="arts">
+        <h2 class="title"></h2>
+        <div class="Slider">
+           
+<span style="--i:1;"><img src="arts/colors.jpg"></span>
+<span style="--i:2;"><img src="arts/blackwhite.jpg"></span>
+<span style="--i:3;"><img src="arts/deer.jpg"></span>
+<span style="--i:4;"><img src="arts/girl.png"></span>
+<span style="--i:5;"><img src="arts/hijab.jpg"></span>
+<span style="--i:6;"><img src="arts/mosque.jpg"></span>
+<span style="--i:7;"><img src="arts/pink.jpg"></span>
+<span style="--i:8;"><img src="arts/still-life.jpg"></span>
+
+
+        </div>
+    <!--
+    <div class="containervideo">
+        <h1> Animation Videos </h1>
+       <div class="row">
+        <div class="col">
+            <div class="small-img-row">
+                <div class="img-small">
+                    <img src="pic2.png" width="50%">
+                    <img src="play.png" class="play-btn"  onclick="playvideo('final 2.avi')">
+                </div>
+                <p>This animation is a dialoge khckzckbckalshlkh </p>
+            </div>
+            <div class="small-img-row">
+                <div class="img-small">
+                    <img src="pic3.png" width="50%">
+                    <img src="play.png" class="play-btn"  onclick="playvideo('FINALVIDEO.mp4')">
+                </div>
+                <p>This animation characters talking</p>
+            </div>
+            <div class="video-player" id="videoplayer">
+                <video width="100%" controls autoplay id="myvideo">
+                    
+
+                </video>
+                <img src="close.png" class="close-btn" onclick="stopvideo()">
+              </div>
+
+              <script> 
+               var videoplayer= document.getElementById("videoplayer");
+               var myvideo= document.getElementById("myvideo");
+
+               function stopvideo(){
+                videoplayer.style.display="none";
+               }
+
+               function playvideo(file){
+                myvideo.src=file;
+                videoplayer.style.display= "block";
+               }
+            </script>
+        </div>
+
+       </div>
+    </div>-->
+    </section>
+    <section class="boxes">
+    
+        <a href="videos.html">Animation Videos</a>
+        <a href="designs.html">Designs</a>
+        
+    </section>
+   
+
+    <section class="projects" id="projects"> 
+        <h2 class="title">Projects</h2>
+     <div class="pcards">
+
+      
+        <div class="project-card">
+            <div class="project-image">
+                <a href="project1.html"><img src="project1/bridge.png" /></a>
+                <alt> Kids Tv cartoon show</alt>
+             </div>
+            
+        </div>
+        <div class="project-card">
+            <div class="project-image">
+                <a href="project2.html"><img src="project2/Start_Page_.jpg" /></a>
+                <alt>2D Fishing Game</alt>
+             </div>
+            
+        </div>  
+        <div class="project-card">
+            <div class="project-image">
+                <a href="project3.html"><img src="project3/edgar1.jpg" /></a>
+                <alt> Comic book </alt>
+             </div>
+            
+        </div>  
+        <div class="project-card">
+            <div class="project-image">
+                <a href="project4.html"><img src="project4/homepage1.png" /></a>
+                <alt> Re-designing a wesite</alt>
+             </div>
+            
+        </div>  
+    </div>
+
+        
+    </section>
+
+
+    <section class="cards-contact" id="contact">
+        <h2 class="title">Let's Work Together</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>613-304-3028</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>
+                        badawiyara3@gmail.com
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
